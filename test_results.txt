@@ -1,0 +1,58 @@
+Test Results Summary:
+
+Total Tests Run: 10
+Successful Tests: 8
+Failed Tests: 2
+Success Rate: 80%
+Failure Rate: 20%
+
+Detailed Logs:
+1. Test Case: Valid Login
+   - Status: Passed
+   - Time Taken: 2 seconds
+   - Notes: User successfully logged in with valid credentials.
+
+2. Test Case: Invalid Login (Incorrect Password)
+   - Status: Failed
+   - Time Taken: 1.5 seconds
+   - Notes: Error message displayed as expected.
+
+3. Test Case: Invalid Login (Non-existent User)
+   - Status: Passed
+   - Time Taken: 1.8 seconds
+   - Notes: Correct error message shown for non-existent user.
+
+4. Test Case: Empty Username
+   - Status: Failed
+   - Time Taken: 1.2 seconds
+   - Notes: No error message displayed.
+
+5. Test Case: Empty Password
+   - Status: Passed
+   - Time Taken: 1.3 seconds
+   - Notes: Correct error message shown for empty password.
+
+6. Test Case: Remember Me Functionality
+   - Status: Passed
+   - Time Taken: 2.1 seconds
+   - Notes: User remains logged in after closing and reopening the browser.
+
+7. Test Case: Logout Functionality
+   - Status: Passed
+   - Time Taken: 1.7 seconds
+   - Notes: User successfully logged out.
+
+8. Test Case: Password Recovery
+   - Status: Passed
+   - Time Taken: 2.5 seconds
+   - Notes: Password recovery email sent successfully.
+
+9. Test Case: UI Elements Visibility
+   - Status: Passed
+   - Time Taken: 1.4 seconds
+   - Notes: All UI elements are visible and functional.
+
+10. Test Case: Session Timeout
+    - Status: Passed
+    - Time Taken: 2.0 seconds
+    - Notes: Session timeout occurs as expected after inactivity.
